@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html {
+  font-size: 1rem;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #050022;
+}
+
+#title {
+  font-size: 3em;
+  text-align: center;
+}
+
+#content-container {
+  background-color: seagreen;
+}
+
+.normal-text {
+  text-align: center;
+}
+
+.card {
+  max-width: 300px;
+  max-height: 450px;
+  height: 450px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.rock {
+  background-color: red;
+}
+
+.scissors {
+  background-color: yellow;
+}
+
+.paper {
+  background-color: green;
+}
+
+.win {
+  background-color: green;
+}
+
+.draw {
+  background-color: yellow;
+}
+
+.lose {
+  background-color: red;
+}
